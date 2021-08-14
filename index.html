@@ -3,166 +3,211 @@
 <html>
 
 <head>
+  <title>Raed Khayat</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Raed Khayat</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-
-<body>
-
   <style>
-    /* Style Settings */
-    body {
-      background-color: white;
+    html,
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       font-family: "Roboto", sans-serif;
-      margin: auto;
-      padding: 10px;
-      display: flex column;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      align-content: center;
     }
-
-    .Bottom-Section {
-      margin: auto;
-      width: 50%;
-      align-items: center;
-    }
-
-    #userPhoto {
-      width: 150px;
-      height: 150px;
-      display: block;
-      margin: 45px auto 30px;
-      border-radius: 50%;
-      border: solid #e6e6e6 2px;
-      box-shadow: 0px 7px 15px rgba(20, 20, 20, 0.5);
-    }
-
-    #userName {
-      color: #1c1c1c;
-      font-size: 25px;
-      display: block;
-      margin: auto;
-      width: 50%;
-      text-align: center;
-      text-decoration: none;
-    }
-
-    #links {
-      max-width: 600px;
-      width: auto;
-      margin: 25px auto;
-      display: flex column;
-      flex-wrap: wrap;
-      padding: 10px;
-    }
-
-    .link {
-      display: block;
-      background-color: #e6e6e6;
-      color: #1c1c1c;
-      font-family: inherit;
-      text-align: center;
-      margin-bottom: 20px;
-      padding: 17px;
-      text-decoration: none;
-      font-size: 20px;
-      border: solid #e6e6e6 2px;
-      box-shadow: 0px 7px 15px rgba(20, 20, 20, 0.5);
-    }
-
-    .link:hover {
-      background-color: #1c1c1c;
-      color: #e6e6e6;
-    }
-
+   
     .icon-container {
       display: flex;
       justify-content: space-evenly;
       padding: 15px;
       margin: auto;
-      width: 60%;
+      width: 70%;
       align-items: center;
       text-align: center;
     }
 
     .icon {
       font-size: 30px;
-      color: #bbb;
+      color: white;
       opacity: 0.6;
       height: 30px;
       text-decoration: none;
     }
 
     .icon:hover {
-      color: black;
+      color: White;
       opacity: 1.6;
     }
-
-    p {
-      text-align: center;
-      color: #bbb;
+    
+    body {
+      background-color: #F8F8FF;
+      font-family: inherit;
+      margin: 0;
     }
-
-    /*This Glowing Hover Effect was made by qpi65 , i used it to Highlight my name */
-    h1 {
-      color: #484848;
-      font-size: 30px;
-      font-weight: bold;
-      font-family: monospace;
-      letter-spacing: 7px;
-      cursor: pointer
-    }
-
-    h1 span {
-      transition: .5s linear
-    }
-
-    h1:hover span {
-      color: Black;
-      text-shadow:
-        0 0 10px #fff,
-        0 0 20px white,
-        0 0 40px black;
-    }
-
-    /*This Glowing Hover Effect was made by qpi65 , i used it to Highlight my name */
   </style>
-  <img id="userPhoto" src="https://i.imgur.com/vQ6CDIK.png" alt="User Photo">
-  <a class="icon" href="https://codepen.io/co0lray" id="userName" target="_blank">
-    <h1><span>Raed Khayat</span></h1>
-  </a>
-  <div id="links">
-    <a class="link" href="https://github.com/co0lray" target="_blank"><i class="fa fa-github" style="padding:10px"></i>Github</a>
-    <a class="link" href="https://stackoverflow.com/users/6804807/co0lray" target="_blank"><i class="fa fa-stack-overflow" style="padding:10px"></i>Stackoverflow</a>
-    <a class="link" href="https://www.reddit.com/user/co0lray" target="_blank"><i class="fa fa-reddit" style="padding:10px"></i> Reddit </a>
-    <a class="link" href="https://www.linkedin.com/in/raed-khayat/" target="_blank"><i class="fa fa-linkedin-square" style="padding:10px"></i>Linkedin</a>
-    <a class="link" href="https://twitter.com/co0lray" target="_blank"><i class="fa fa-twitter-square" style="padding:10px"></i> Twitter</a>
-    <a class="link" href="https://www.instagram.com/co0l_ray/" target="_blank"><i class="fa fa-instagram" style="padding:10px"></i>Instagram</a>
-    <a class="link" href="https://www.youtube.com/channel/UC-XXyJ8xlNGUQx7Isxzsp2w" target="_blank"><i class="fa fa-youtube" style="padding:10px"></i>Youtube</a>
-    <a class="link" href="https://www.twitch.tv/co0lray" target="_blank"><i class="fa fa-twitch" style="padding:10px"></i>Twitch</a>
-    <a class="link" href="https://www.tiktok.com/@co0lray?lang=en" target="_blank"><i class="fab fa-tiktok" style="padding:10px"></i>TikTok</a>
+</head>
+
+<body> 
+
+  <!-- Page Container -->
+  <div class="w3-content w3-margin-top " style="max-width:1400px;">
+
+    <!-- The Grid -->
+    <div class="w3-row-padding">
+
+      <!-- Left Column -->
+      <div class="w3-third">
+
+        <div class="w3-white w3-text-grey w3-card-4">
+          <div class="w3-display-container">
+            <img src="https://i.imgur.com/vQ6CDIK.png" style="width:100%" alt="Avatar">
+            <div class="w3-container w3-display-bottommiddle"> 
+              <h2><a style="text-decoration:none;color:white;text-shadow:2px 1px 0 #444;text-align:center;" href="https://co0lray.github.io/co0lray/" target="_blank">Raed.A.Khayat</a></h2> 
+            </div>
+          </div>
+          <div class="w3-container">
+            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large" style="color:#93c528"></i>Skilled Professional</p>
+            <p><i class="fa fa-home fa-fw w3-margin-right w3-large" style="color:#93c528"></i>Riyadh, SA</p>
+            <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large" style="color:#93c528"></i>coollray@gmail.com</p>
+            <p><i class="fa fa-phone fa-fw w3-margin-right w3-large" style="color:#93c528"></i>+966 50 662 3883</p>
+            <p><i class="fa fa-link fa-fw w3-margin-right w3-large" style="color:#93c528"></i>Website : <a href="https://co0lray.github.io/co0lray/" target="_blank">@Raed khayat</a></p>
+            <hr>
+
+            <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right" style="color:#93c528"></i>Skills</b></p>
+            <p>Managment</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge" style="background:#93c528;color:white;width:90%">90%</div>
+            </div>
+            <p>Communication</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge " style="background:#93c528;color:white;width:85%">
+                <div class="w3-center w3-text-white">85%</div>
+              </div>
+            </div>
+            <p>Operations & Logistics</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge " style="background:#93c528;color:white;width:85%">85%</div>
+            </div>
+            <p>Marketing</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge " style="background:#93c528;color:white;width:80%">80%</div>
+            </div>
+            <br>
+            <hr>
+            <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right" style="color:#93c528"></i>Languages</b></p>
+            <p>Arabic</p>
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-round-xlarge w3-center" style="background:#93c528;color:white;height:24px;width:100%">100%</div>
+            </div>
+            <p>English</p>
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-round-xlarge w3-center" style="background:#93c528;color:white;height:24px;width:100%">100%</div>
+            </div>
+            <br>
+            <hr>
+            <p class="w3-large w3-text-theme"><b><i class="fa fa-desktop fa-fw w3-margin-right" style="color:#93c528"></i>Computer Skills</b></p>
+            <p>Microsoft Office All Applications</p>
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-round-xlarge w3-center" style="background:#93c528;color:white;height:24px;width:100%">100%</div>
+            </div>
+            <p>Web Development ( Html , CSS )</p>
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-round-xlarge w3-center" style="background:#93c528;color:white;height:24px;width:80%">80%</div>
+            </div>
+            <p>Programing ( Python , Javascript )</p>
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-round-xlarge w3-center" style="background:#93c528;color:white;height:24px;width:55%">55%</div>
+            </div><br>
+          </div>
+        </div>
+
+        <!-- End Left Column -->
+      </div>
+
+      <!-- Right Column -->
+      <div class="w3-twothird"> 
+
+        <div class="w3-container w3-card-4 w3-white w3-margin-bottom">
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge" style="color:#93c528"></i>Work Experience</h2>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Logistics Manager / Arrab Contracting Company</b></h5>
+            <h6 class="" style="color:#93c528"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2011 - <span class="w3-tag w3-round" style="background:#93c528;color:white"> Current</span></h6>
+            <p>Design and implement efficient workflows to achieve company's pre-set objectives of Organizing, Facilitating & Supporting construction Activities for King Abdullah Project For Development of Security Forces ( KAP2B ) - around the Kingdom as per the companies defined standards while maintaining costs & expenditures at their minimum rates . </p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>CRM Manager / Nissan Automobile Co.</b></h5>
+            <h6 class="" style="color:#93c528"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2008 - Dec 2011</h6>
+            <p>Design and implement efficient workflows to build Sales & Services follow-up Systems to achieve the company Objective of Raising the Customer Satisfaction Levels Kingdom-wide while maintaining costs & expenditures at their minimum rates.</p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Operations Incharge / Nissan Automobile Co.</b></h5>
+            <h6 class="" style="color:#93c528"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2005 - Mar 2008</h6>
+            <p>Managing Daily Operations and keeping a good relationship with all vehicle dealers while coordinating between all company departments to achieve the company Objective of running smooth business operations & expediting vehicle supply, while maintaining costs & expenditures at their minimum rates.</p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Marketing Analyst / Suzuki Automobile Co.</b></h5>
+            <h6 class="" style="color:#93c528"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2000 - Mar 2005</h6>
+            <p>Prepare, Monitor & Follow up all Media related materials including ads , while keeping track of all sales, service reports & activities Kingdom wide ( 15 Branches ) to measure campaigns efficiency & performance while also providing insights & performance reports to the tops management for actual sales vs target, Target vs budget , Collective visit reports , Collective Questionnaire Reports & data.</p><hr>
+          </div>
+        </div>
+
+        <div class="w3-container w3-card-4 w3-white">
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge" style="color:#93c528"></i>Education</h2>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>BA Degree in Marketing & Business Administration</b></h5>
+            <h6 class="" style="color:#93c528"><i class="fa fa-calendar fa-fw w3-margin-right"></i>1994 - 1999</h6>
+            <p>From Applied Science University  ,  Amman  ,  Jordan</p><br>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Business Experience</b></h5>
+            <h6 class="" style="color:#93c528"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2000 - 2020</h6>
+            <p>Over 20 Years of Practical Business Experience in multiple Management fields varied from managing small groups of people 10-15 up-to managing full teams of over 180 people distributed in multiple cities</p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>School of Coding</b></h5>
+            <h6 class="" style="color:#93c528"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
+            <p>Programing & Web Development! All I need to know</p>
+          </div>
+        </div>
+
+        <!-- End Right Column -->
+      </div>
+
+      <!-- End Grid -->
+    </div>
+
+    <!-- End Page Container -->
   </div>
-  <div class="Bottom-Section">
-    <p style="color:black">You Can Also Find me Here:</p>
+
+  <footer class="w3-container w3-center w3-margin-top"style="background:#93c528;color:white">
+    <p>Find me on social media.</p>
     <div class="icon-container">
-      <a class="icon" href="https://medium.com/@coollray" target="_blank"><i class="fa fa-medium"></i></a>
+      <a class="icon" href="https://github.com/co0lray" target="_blank"><i class="fa fa-github"></i></a>
+      <a class="icon" href="https://stackoverflow.com/users/6804807/co0lray" target="_blank"><i class="fa fa-stack-overflow"></i></a>
+      <a class="icon" href="https://www.reddit.com/user/co0lray" target="_blank"><i class="fa fa-reddit"></i></a>
+    <a class="icon" href="https://www.facebook.com/co0lray/" target="_blank"><i class="fa fa-facebook-square"></i>
+      <a class="icon" href="https://www.linkedin.com/in/raed-khayat/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+      <a class="icon" href="https://twitter.com/co0lray" target="_blank"><i class="fa fa-twitter-square"></i></a>
+      <a class="icon" href="https://www.instagram.com/co0l_ray/" target="_blank"><i class="fa fa-instagram"></i></a>
+      <a class="icon" href="https://www.youtube.com/channel/UC-XXyJ8xlNGUQx7Isxzsp2w" target="_blank"><i class="fa fa-youtube"></i></a>
+      <a class="icon" href="https://www.twitch.tv/co0l_rayi" target="_blank"><i class="fa fa-twitch"></i></a>
+      <a class="icon" href="https://medium.com/@coollray" target="_blank"><i class="fa fa-medium "></i></a>
       <a class="icon" href="https://www.pinterest.com/coollray/" target="_blank"><i class="fa fa-pinterest"></i></a>
       <a class="icon" href="https://co0lray.tumblr.com" target="_blank"><i class="fa fa-tumblr-square"> </i></a>
       <a class="icon" href="https://vimeo.com/co0lray" target="_blank"><i class="fa fa-vimeo"></i></a>
       <a class="icon" href="https://www.snapchat.com/add/raed_khayat" target="_blank"><i class="fa fa-snapchat"></i></a>
-    </div>
-  </div>
-  <footer style="text-align:center;">
-
-    <p style="color:black">Powered by : <a class="icon" href="https://co0lray.github.io/co0lray/" target="_blank">co0lray</p>
+      </div>
+      <p>Powered by <a href="https://co0lray.github.io/co0lray/" target="_blank">co0lray</a></p>
   </footer>
 
-  <!-- Javascript -->
-  <script src="https://kit.fontawesome.com/7e482ae4fd.js"></script>
 </body>
 
 </html>
